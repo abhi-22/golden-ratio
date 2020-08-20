@@ -154,4 +154,6 @@ header::after {
 .foot{
   color: #fff;
 }
-
+.application{
+  margin-top: 3em;
+}
