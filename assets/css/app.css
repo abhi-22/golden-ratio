@@ -2,6 +2,7 @@ body {
   background-color: #92a8d1;
     font-family: "Nunito", sans-serif;
 }
+
 header {
   background-color: rgba(26, 10, 56, 0.83);
   color: #F4F005;
@@ -137,7 +138,7 @@ header::after {
 .single:hover .btn {
   box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
 }
-
+ 
 .foot1{
   padding: 35px 0;
   background-color: #ee1515;
@@ -154,6 +155,76 @@ header::after {
 .foot{
   color: #fff;
 }
+
 .application{
   margin-top: 3em;
+
+}
+.application2 {
+  padding: 0;
+}
+
+.application2 .btn {
+  margin-top: 60px;
+}
+
+.application2 .row .col-lg-6:nth-of-type(odd) .application-thumb {
+  margin-top: 30px;
+}
+
+.application2 .row .col-lg-6:nth-of-type(even) .application-thumb {
+  margin-bottom: 30px;
+}
+
+.application1{
+ margin: 35px 0 0;
+}
+
+.application-thumb {
+  flex: 0 0 273px;
+}
+
+.application-content {
+  color: #ccc;
+}
+
+
+
+.application-content h3 {
+  margin: 10px 0 2px;
+}
+
+.application-content h3 a {
+  color: #26264b;
+  font-weight: 600;
+}
+
+.application-content h3 a:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.application-content a {
+  color: #ccc;
+}
+
+.application-content a:hover {
+  color: #26264b;
+}
+
+.application-content .application-btn {
+  color: #6e6e6e;
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+.application-content .application-btn:hover {
+  color: #fff;
+  background-color: #ee1515;
 }
