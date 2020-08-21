@@ -156,75 +156,63 @@ header::after {
   color: #fff;
 }
 
-.application{
-  margin-top: 3em;
+
+.ar_{
+  margin-top: 0;
+  
+  padding: 50px;
+}
+.ar_c{
+  width: 80%;
+  margin: 20px auto;
+  color: whitesmoke;
+  background-color: #67183F; ;
+}
+.
+#ar_h1{
+background-color:#900C3F ; 
+color: whitesmoke;
+font-size: 50px;
+padding: 25px;
+}
+#archi{
+  display: none;
 
 }
-.application2 {
-  padding: 0;
+#music{
+  display: none;
+}
+.app_img{
+  width: 300px;
+  height: 300px;
+}
+.app_back_btn{
+  width: auto;
+  margin: auto;
+
+}
+.trust {
+  padding: 75px 0;
+  background-color: rgba(209, 122, 134,.8);
+  color: #ddd;
+  position: relative;
 }
 
-.application2 .btn {
-  margin-top: 60px;
+.trust .title {
+  margin-bottom: 46px;
 }
 
-.application2 .row .col-lg-6:nth-of-type(odd) .application-thumb {
-  margin-top: 30px;
-}
-
-.application2 .row .col-lg-6:nth-of-type(even) .application-thumb {
-  margin-bottom: 30px;
-}
-
-.application1{
- margin: 35px 0 0;
-}
-
-.application-thumb {
-  flex: 0 0 273px;
-}
-
-.application-content {
-  color: #ccc;
-}
-
-
-
-.application-content h3 {
-  margin: 10px 0 2px;
-}
-
-.application-content h3 a {
-  color: #26264b;
-  font-weight: 600;
-}
-
-.application-content h3 a:hover {
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.application-content a {
-  color: #ccc;
-}
-
-.application-content a:hover {
-  color: #26264b;
-}
-
-.application-content .application-btn {
-  color: #6e6e6e;
-  text-align: center;
-  font-size: 10px;
-  display: inline-block;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
-  border-radius: 50%;
-  background-color: whitesmoke;
-}
-
-.application-content .application-btn:hover {
+.trust h1 {
   color: #fff;
-  background-color: #ee1515;
+  text-align: center;
+  c
+}
+.trust p{
+  color: #26264b;
+}
+.space{
+  margin-top: 2em;
+}
+.video{
+  margin-top: 10rem;
 }
