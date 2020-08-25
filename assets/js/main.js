@@ -132,7 +132,9 @@ var archi_btn=document.querySelector("#archi_btn");
 archi_btn.addEventListener("click", function(){
     archi.style.display=" block";
     music.style.display="none";
-appli3.style.display="none";})
+    design.style.display="none";
+    nature.style.display="none";
+})
 
 var archi_back_btn=document.querySelector("#archi_back_btn");
 archi_back_btn.addEventListener("click", function(){
@@ -144,22 +146,40 @@ var music_btn=document.querySelector("#music_btn");
 music_btn.addEventListener("click", function(){
     music.style.display=" block";
 archi.style.display="none";
-appli3.style.display="none";})
+design.style.display="none";
+nature.style.display="none";
+})
 
 var music_back_btn=document.querySelector("#music_back_btn");
 music_back_btn.addEventListener("click", function(){
     music.style.display="none";})
 
-var music=document.querySelector("#appli3");
-var music_btn=document.querySelector("#appli3_btn");
-appli3.addEventListener("click", function(){
-    appli3.style.display=" block";
-archi.style.display="none";
-music.style.display="none";})
+    var design=document.querySelector("#design");
+var design_btn=document.querySelector("#design_btn");
+design_btn.addEventListener("click", function(){
+    design.style.display=" block";
+    music.style.display="none";
+    archi.style.display="none";
+    nature.style.display="none";
+})
 
-var appli3_back_btn=document.querySelector("#appli3_back_btn");
-appli3_back_btn.addEventListener("click", function(){
-   appli3.style.display="none";})
+var design_back_btn=document.querySelector("#design_back_btn");
+design_back_btn.addEventListener("click", function(){
+    design.style.display="none";})
+
+    var nature=document.querySelector("#nature");
+var nature_btn=document.querySelector("#nature_btn");
+nature_btn.addEventListener("click", function(){
+    nature.style.display=" block";
+    music.style.display="none";
+    archi.style.display="none";
+    design.style.display="none";
+})
+
+var nature_back_btn=document.querySelector("#nature_back_btn");
+nature_back_btn.addEventListener("click", function(){
+    nature.style.display="none";})
+
 
 
     $(document).ready(function(){
